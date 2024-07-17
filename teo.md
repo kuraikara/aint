@@ -215,3 +215,7 @@ Un programma è un insieme di istruzioni che vengono eseguite su un computer per
 INtelligente lo è se esegue azioni autonome in modo flessibile in un abbiente, dove per flessibile intendiamo: reattivo, proattivo e sociale.
 
 guadare slide
+
+<br/><br/><br/>
+
+![alt text](image-79.png)
