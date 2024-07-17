@@ -171,15 +171,26 @@ senza pensarci.
 
 ![alt text](image-69.png)
 
-<!-- TODO -->
-
-la pianificazione non interrompe un processo che esegue la CPU nel mezzo dell’esecuzione. Invece, attende che il processo completi il ​​tempo di burst della CPU e quindi può allocare la CPU a un altro processo
+Per un agente posso definire tutti i Behaviours che voglio
+che saranno portati avanti in parallelo facendo un passo per volta per ogni task.
+Dato che ogni agente ha un solo thread la parallelizzazione tra i tasks è simulata dallo scheduler.
+Lo scheduler dei Behaviours non è preemptive e, in quanto cooperativo, il metodo action() viene sempre eseguito completamente.
+Il fatto che ogni agente sia su un solo thread non è limitativo poichè ovviamente le sue azioni
+sono collaborative tra di loro, non in competizione. Sarà quindi il singolo agente che decide
+l'ordine delle azioni che vuole compiere. Agenti diversi, in competizione tra loro, saranno
+su threads distinti.
 
 <br/><br/><br/>
 
 ![alt text](image-74.png)
 
-- il fatto che quello che fa lagente modifica lambientequindi influisce sulle percezioni future
+autonomo
+
+ambiente
+
+obbiettivi
+
+il fatto che quello che fa lagente modifica lambientequindi influisce sulle percezioni future
 
 <br/><br/><br/>
 
